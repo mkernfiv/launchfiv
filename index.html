@@ -18,23 +18,14 @@
         /* Crear un contenedor que permita scroll */
         .scroll-container {
             height: 100%;
-            overflow-y: auto; /* Habilitar scroll vertical */
-            scrollbar-width: thin; /* Para Firefox, barra de scroll delgada */
-            -ms-overflow-style: -ms-autohiding-scrollbar; /* Para Internet Explorer y Edge */
+            overflow-y: scroll; /* Habilitar scroll vertical */
+            -ms-overflow-style: none; /* Ocultar scrollbar para Internet Explorer y Edge */
+            scrollbar-width: none; /* Ocultar scrollbar para Firefox */
         }
 
-        /* Estilo de la barra de scroll para navegadores WebKit (Chrome, Safari) */
+        /* Ocultar scrollbar para navegadores WebKit (Chrome, Safari) */
         .scroll-container::-webkit-scrollbar {
-            width: 8px; /* Ancho de la barra de scroll */
-        }
-
-        .scroll-container::-webkit-scrollbar-thumb {
-            background-color: rgba(255, 165, 0, 0.5); /* Color del thumb */
-            border-radius: 10px; /* Bordes redondeados */
-        }
-
-        .scroll-container::-webkit-scrollbar-track {
-            background: transparent; /* Fondo de la pista */
+            display: none; /* Ocultar la barra de desplazamiento */
         }
 
         .container {
