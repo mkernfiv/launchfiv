@@ -6,13 +6,35 @@
     <title>Changelog Page</title>
     <style>
         body {
-            background-color: rgba(44, 62, 80, 0.9); /* Fondo oscuro pero transparente */
+            background: none; /* Sin fondo */
             font-family: Arial, sans-serif;
             color: #ecf0f1;
             margin: 0;
             padding: 0;
             height: 100vh; /* Altura de la ventana del navegador */
-            overflow: auto; /* Permitir scroll */
+            overflow: hidden; /* Ocultar la barra de scroll */
+        }
+
+        /* Crear un contenedor que permita scroll */
+        .scroll-container {
+            height: 100%;
+            overflow-y: auto; /* Habilitar scroll vertical */
+            scrollbar-width: thin; /* Para Firefox, barra de scroll delgada */
+            -ms-overflow-style: -ms-autohiding-scrollbar; /* Para Internet Explorer y Edge */
+        }
+
+        /* Estilo de la barra de scroll para navegadores WebKit (Chrome, Safari) */
+        .scroll-container::-webkit-scrollbar {
+            width: 8px; /* Ancho de la barra de scroll */
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 165, 0, 0.5); /* Color del thumb */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        .scroll-container::-webkit-scrollbar-track {
+            background: transparent; /* Fondo de la pista */
         }
 
         .container {
@@ -59,42 +81,44 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Changelog Page</h1>
-        <h2>Changes</h2>
-        
-        <ul>
-            <li>
-                <strong>Feature Added:</strong> Improved performance for data loading. <span class="date">[2024-09-23]</span>
-            </li>
-            <li>
-                <strong>Bug Fixed:</strong> Resolved issue with login authentication. <span class="date">[2024-09-20]</span>
-            </li>
-            <li>
-                <strong>UI Update:</strong> Redesigned user dashboard for better navigation. <span class="date">[2024-09-15]</span>
-            </li>
-            <li>
-                <strong>Feature Added:</strong> New reporting tool for data analysis. <span class="date">[2024-09-10]</span>
-            </li>
-            <li>
-                <strong>Bug Fixed:</strong> Corrected calculation errors in financial reports. <span class="date">[2024-09-08]</span>
-            </li>
-            <li>
-                <strong>Performance Improvement:</strong> Optimized database queries. <span class="date">[2024-09-05]</span>
-            </li>
-            <li>
-                <strong>UI Update:</strong> Enhanced mobile responsiveness for the site. <span class="date">[2024-09-02]</span>
-            </li>
-            <li>
-                <strong>Security Patch:</strong> Updated encryption methods for user data. <span class="date">[2024-08-30]</span>
-            </li>
-            <li>
-                <strong>Feature Added:</strong> Added multi-language support. <span class="date">[2024-08-25]</span>
-            </li>
-            <li>
-                <strong>Bug Fixed:</strong> Fixed display issue on the settings page. <span class="date">[2024-08-20]</span>
-            </li>
-        </ul>
+    <div class="scroll-container">
+        <div class="container">
+            <h1>Changelog Page</h1>
+            <h2>Changes</h2>
+            
+            <ul>
+                <li>
+                    <strong>Feature Added:</strong> Improved performance for data loading. <span class="date">[2024-09-23]</span>
+                </li>
+                <li>
+                    <strong>Bug Fixed:</strong> Resolved issue with login authentication. <span class="date">[2024-09-20]</span>
+                </li>
+                <li>
+                    <strong>UI Update:</strong> Redesigned user dashboard for better navigation. <span class="date">[2024-09-15]</span>
+                </li>
+                <li>
+                    <strong>Feature Added:</strong> New reporting tool for data analysis. <span class="date">[2024-09-10]</span>
+                </li>
+                <li>
+                    <strong>Bug Fixed:</strong> Corrected calculation errors in financial reports. <span class="date">[2024-09-08]</span>
+                </li>
+                <li>
+                    <strong>Performance Improvement:</strong> Optimized database queries. <span class="date">[2024-09-05]</span>
+                </li>
+                <li>
+                    <strong>UI Update:</strong> Enhanced mobile responsiveness for the site. <span class="date">[2024-09-02]</span>
+                </li>
+                <li>
+                    <strong>Security Patch:</strong> Updated encryption methods for user data. <span class="date">[2024-08-30]</span>
+                </li>
+                <li>
+                    <strong>Feature Added:</strong> Added multi-language support. <span class="date">[2024-08-25]</span>
+                </li>
+                <li>
+                    <strong>Bug Fixed:</strong> Fixed display issue on the settings page. <span class="date">[2024-08-20]</span>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
