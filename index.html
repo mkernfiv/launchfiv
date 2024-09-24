@@ -6,26 +6,24 @@
     <title>Changelog Page</title>
     <style>
         body {
-            background: none; /* Sin fondo */
+            background: none;
             font-family: Arial, sans-serif;
             color: #ecf0f1;
             margin: 0;
             padding: 0;
-            height: 100vh; /* Altura de la ventana del navegador */
-            overflow: hidden; /* Ocultar la barra de scroll */
+            height: 100vh; 
+            overflow: hidden; 
         }
 
-        /* Crear un contenedor que permita scroll */
         .scroll-container {
             height: 100%;
-            overflow-y: scroll; /* Habilitar scroll vertical */
-            -ms-overflow-style: none; /* Ocultar scrollbar para Internet Explorer y Edge */
-            scrollbar-width: none; /* Ocultar scrollbar para Firefox */
+            overflow-y: scroll;
+            -ms-overflow-style: none; 
+            scrollbar-width: none; 
         }
 
-        /* Ocultar scrollbar para navegadores WebKit (Chrome, Safari) */
         .scroll-container::-webkit-scrollbar {
-            display: none; /* Ocultar la barra de desplazamiento */
+            display: none; 
         }
 
         .container {
@@ -41,28 +39,22 @@
             margin-bottom: 0.5em;
         }
 
-        h2 {
-            font-size: 1.5em;
-            color: #bdc3c7;
-            margin-bottom: 1.5em;
-        }
-
         ul {
             list-style-type: none;
             padding: 0;
         }
 
         ul li {
-            background-color: #34495e;
+            background-color: #ecf0f1;
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 5px;
             text-align: left;
-            cursor: default; /* Mantener el puntero por defecto */
+            cursor: default; 
         }
 
         ul li:hover {
-            background-color: #d19a29; /* Color entre naranja y marrón */
+            background-color: #ecf0f1; 
         }
 
         .date {
@@ -75,8 +67,6 @@
     <div class="scroll-container">
         <div class="container">
             <h1>Changelog Page</h1>
-            <h2>Changes</h2>
-            
             <ul>
                 <li>
                     <strong>Feature Added:</strong> Improved performance for data loading. <span class="date">[2024-09-23]</span>
