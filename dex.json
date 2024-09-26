@@ -4791,17 +4791,6 @@
           }
         },
         {
-          "id": "canary-mc1.20.1-0.3.3.jar",
-          "name": "canary-mc1.20.1-0.3.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 594191,
-            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/files/mods/canary-mc1.20.1-0.3.3.jar",
-            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1",
-            "path": "mods/canary-mc1.20.1-0.3.3.jar"
-          }
-        },
-        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
