@@ -598,12 +598,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4780414,
-            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionaloff/BlueMap-5.3-forge-1.20.jar",
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/required/BlueMap-5.3-forge-1.20.jar",
             "MD5": "5de77eb3bf356431b3838fc1aabaa2d5"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -627,17 +623,16 @@
           }
         },
         {
-          "id": "com.abdelaziz:canary:0.3.3@jar",
+          "id": "com.abdelaziz:canary:0.3.2@jar",
           "name": "Canary",
           "type": "ForgeMod",
           "artifact": {
-            "size": 594191,
-            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionaloff/canary-mc1.20.1-0.3.3.jar",
-            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
+            "size": 589262,
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionalon/canary-mc1.20.1-0.3.2.jar",
+            "MD5": "c0e33d6e4c053a1b2d4be1facc6164ed"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
