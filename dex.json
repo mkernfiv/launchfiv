@@ -10,7 +10,7 @@
     {
       "id": "Create-Genesis-1.20.1",
       "name": "Create-Genesis (Minecraft 1.20.1)",
-      "description": "Create-Genesis Running Minecraft 1.20.1 (Forge v47.3.7)",
+      "description": "Create-Genesis Running Minecraft 1.20.1 (Forge v47.3.10)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -24,83 +24,83 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.7",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.10",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
             "size": 7399,
-            "MD5": "040d351d606060d5b83fddd26e81705d",
-            "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar"
+            "MD5": "fbb91ae57ddd18723399ccb684f65706",
+            "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.10/lowcodelanguage-1.20.1-47.3.10.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.3.7",
+              "id": "1.20.1-47.3.10",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16542,
-                "MD5": "9a8ba2d460c39e7af1595566ece8d136",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/versions/1.20.1-forge-47.3.7/1.20.1-forge-47.3.7.json"
+                "size": 16554,
+                "MD5": "135c3a04e61e9451fb7c7fb6431b2549",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/versions/1.20.1-forge-47.3.10/1.20.1-forge-47.3.10.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.7",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.10",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 118686,
-                "MD5": "b1c804dde01878dbcf9310c3bd04eea6",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar"
+                "size": 118579,
+                "MD5": "95f5cc2de1237cd350176abaa1e37085",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.10/fmlcore-1.20.1-47.3.10.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.7",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.10",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16516,
-                "MD5": "e9db49e1ca0eee9fec499c3e9173a319",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar"
+                "size": 16855,
+                "MD5": "2457f76791a32ba9cb9377c6216544da",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.10/javafmllanguage-1.20.1-47.3.10.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.7",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.10",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
                 "size": 5000,
-                "MD5": "6b2bda8e9f9047e54d0e0d925f89cdf7",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar"
+                "MD5": "d298b20a445637b4655308a0fd0c1c4c",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.10/mclanguage-1.20.1-47.3.10.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.7:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.3.10:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2753823,
-                "MD5": "015c7a55def72696038352f56d741d32",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar"
+                "size": 2753586,
+                "MD5": "b6081b6ddf8a6d43df4c38b1f3decf18",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/forge/1.20.1-47.3.10/forge-1.20.1-47.3.10-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.7:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.3.10:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
                 "size": 4793821,
                 "MD5": "8e4fb7202d94e3336ea097a8621e8733",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-client.jar"
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/forge/1.20.1-47.3.10/forge-1.20.1-47.3.10-client.jar"
               },
               "subModules": []
             },
@@ -411,23 +411,23 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.7",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.10",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
                 "size": 264940,
-                "MD5": "23f0d0ea2c9b56938019c207363a1589",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.7/fmlloader-1.20.1-47.3.7.jar"
+                "MD5": "54ad40b5ca0be11735c3e5a4d4577542",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.10/fmlloader-1.20.1-47.3.10.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.7",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.10",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170425,
-                "MD5": "9866c86a40d79514f2fcfbf901788567",
-                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.7/fmlearlydisplay-1.20.1-47.3.7.jar"
+                "size": 170426,
+                "MD5": "c89b408828adc032f8fa75660c9012b1",
+                "url": "https://createlauncher-58d5b.web.app/host/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.10/fmlearlydisplay-1.20.1-47.3.10.jar"
               }
             }
           ]
@@ -620,6 +620,20 @@
             "size": 137704,
             "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/required/callablehorses-1.20.1-1.3.0.1.jar",
             "MD5": "01896652bea6d715fac8759c996f1f4d"
+          }
+        },
+        {
+          "id": "com.abdelaziz:canary:0.3.3@jar",
+          "name": "Canary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 594191,
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionaloff/canary-mc1.20.1-0.3.3.jar",
+            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
