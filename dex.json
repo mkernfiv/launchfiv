@@ -4835,6 +4835,28 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 5066,
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/files/servers.dat",
+            "MD5": "bd3e0db10701031de669b8bb474a9dea",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/files/servers.dat_old",
+            "MD5": "97bba4f279248b31bdc7e43ec5f23806",
+            "path": "servers.dat_old"
+          }
+        },
+        {
           "id": "ComplementaryReimagined_r5.2.2.zip",
           "name": "ComplementaryReimagined_r5.2.2.zip",
           "type": "File",
