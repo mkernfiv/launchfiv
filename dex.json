@@ -623,19 +623,6 @@
           }
         },
         {
-          "id": "com.abdelaziz:canary:0.3.2@jar",
-          "name": "Canary",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 589262,
-            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionalon/canary-mc1.20.1-0.3.2.jar",
-            "MD5": "c0e33d6e4c053a1b2d4be1facc6164ed"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "io.github.avacadowizard120:censor_chat:2.1@jar",
           "name": "Censor Chat",
           "type": "ForgeMod",
