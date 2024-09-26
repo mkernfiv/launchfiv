@@ -623,20 +623,6 @@
           }
         },
         {
-          "id": "com.abdelaziz:canary:0.3.3@jar",
-          "name": "Canary",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 594191,
-            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/forgemods/optionaloff/canary-mc1.20.1-0.3.3.jar",
-            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "io.github.avacadowizard120:censor_chat:2.1@jar",
           "name": "Censor Chat",
           "type": "ForgeMod",
@@ -4802,6 +4788,17 @@
             "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/files/datapacks/villager%20workstation%20highlights%20v1.1.7%20(MC%201.20-1.20.6).zip",
             "MD5": "acf35a6b6261ed2a7a10a17fbd59ae99",
             "path": "datapacks/villager workstation highlights v1.1.7 (MC 1.20-1.20.6).zip"
+          }
+        },
+        {
+          "id": "canary-mc1.20.1-0.3.3.jar",
+          "name": "canary-mc1.20.1-0.3.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 594191,
+            "url": "https://createlauncher-58d5b.web.app/host/servers/Create-Genesis-1.20.1/files/mods/canary-mc1.20.1-0.3.3.jar",
+            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1",
+            "path": "mods/canary-mc1.20.1-0.3.3.jar"
           }
         },
         {
